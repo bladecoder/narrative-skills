@@ -15,3 +15,7 @@ threads:
     status: "open"
     question: "Is Iago alive and where is he being held?"
     last_touched_in: "chapter_02"
+  - id: council_identity
+    status: "open"
+    question: "What is the consejo mentioned in Mateo's notebook, and who belongs to it?"
+    last_touched_in: "chapter_02"

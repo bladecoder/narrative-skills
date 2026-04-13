@@ -13,3 +13,8 @@ locations:
     type: "shore structure"
     facts:
       - "Iago was last seen near this place"
+  harbor:
+    type: "working port area"
+    facts:
+      - "Tomas reacts to the notebook here in chapter 2"
+      - "The ash becomes publicly visible from this zone on day 2"

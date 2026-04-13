@@ -14,6 +14,13 @@ Fixture project created at `examples/ashes-under-the-tide/` to exercise the full
 - `chapter-review`
 - `continuity-check`
 
+Extended fixture update created to exercise the post-review loop:
+
+- `rewrite-chapter`
+- `update-character-state`
+- `update-timeline`
+- `sync-story-bible`
+
 ## What was produced
 
 - Full root project structure
@@ -22,9 +29,11 @@ Fixture project created at `examples/ashes-under-the-tide/` to exercise the full
 - Cast bible
 - Three-act outline and chapter map
 - Two chapter plans
-- Two chapter drafts
+- Two chapter drafts, with chapter 2 revised
 - Two chapter reviews plus manuscript status note
+- One revision artifact
 - Continuity YAML files updated from draft evidence
+- Character state, chapter status, open loops, and timeline synchronized
 
 ## Observed strengths
 
@@ -32,9 +41,9 @@ Fixture project created at `examples/ashes-under-the-tide/` to exercise the full
 - The file naming convention remains script-friendly.
 - The workflow from outline to chapter review is coherent and traceable.
 - `load-story-context` fills the gap of checking readiness before downstream work.
+- The post-review loop is now explicit and persisted rather than implied.
 
 ## Gaps noticed
 
-- No dedicated skill yet for revising a chapter after review.
 - No dedicated skill yet for manuscript-level synthesis once many chapters exist.
 - The continuity YAML schema is intentionally light, but could be standardized further if automation increases.

@@ -1,6 +1,6 @@
 # Capitulo 2
 
-El cuaderno olia a sal mojada y a cuero viejo. Nerea lo abrio sobre la mesa de la cocina con una taza de cafe frio al lado y la persiana a medio subir. La letra de su padre se iba cerrando a medida que avanzaban las paginas, como si hubiese aprendido a escribir para que lo entendiera cada vez menos gente. Fechas. Horas de marea. Iniciales. Dos nombres completos. Una columna de marcas breves en el margen, siempre tres, a veces cuatro. En una pagina del final encontro una frase entera: Si vuelve la ceniza, no esperar al consejo.
+El cuaderno olia a sal mojada y a cuero viejo. Nerea lo abrio sobre la mesa de la cocina con una taza de cafe frio al lado y la persiana a medio subir. La letra de su padre se iba cerrando a medida que avanzaban las paginas, como si hubiese aprendido a escribir para que lo entendiera cada vez menos gente. Fechas. Horas de marea. Iniciales. Dos nombres completos. Una columna de marcas breves en el margen, siempre tres, a veces cuatro, como si contaran no personas sino repeticiones. En una pagina del final encontro una frase entera: Si vuelve la ceniza, no esperar al consejo.
 
 No sabia que consejo era ese ni por que la palabra le producia un rechazo fisico. Paso una hoja mas y encontro media linea arrancada. Solo quedaba el final de una palabra: gr...is. Puede que no significara nada. Puede que significara el pueblo entero.
 
@@ -36,7 +36,7 @@ El gesto de Tomas no fue exactamente de dolor. Fue de cansancio. Como si llevara
 
 Nerea iba a responder cuando vio el movimiento en la orilla. Dos ninos corrian hacia el espigon pequeno. Detras, una mujer gritaba algo que el viento partio en dos. Nerea siguio la direccion de sus manos y distinguio la franja oscura pegada a las piedras: una linea de polvo negro, humedo, demasiado espeso para ser barro.
 
-La tormenta entro sin ceremonia. No fue un estallido de lluvia, sino una sombra repentina que aplasto el color del agua. En menos de un minuto, la ceniza se extendio en vetas finas por la espuma sucia de la orilla.
+Antes de que la tormenta descargara, el aire cambió. El muelle olio de pronto a algas removidas y metal caliente, aunque el dia seguia frio. Luego entro sin ceremonia. No fue un estallido de lluvia, sino una sombra repentina que aplasto el color del agua. En menos de un minuto, la ceniza se extendio en vetas finas por la espuma sucia de la orilla.
 
 Tomas la agarro por el codo.
 
@@ -53,6 +53,8 @@ El no respondio. Solo la solto al ver acercarse a Aurelia Montalvan por el paseo
 Aurelia miro el bolso donde asomaba una esquina del cuaderno y despues la playa tiznada.
 
 -Uno en el que supieras marcharte a tiempo.
+
+No lo dijo como una mujer irritada, sino como alguien que ya habia calculado el precio de que Nerea se quedara. Detras de ella, dos marineros dejaron de fingir que recogian cajas y miraron al suelo con la obediencia torpe de quien reconoce una orden aunque no la haya oido entera.
 
 No hubo amenaza abierta. Fue peor por eso. Tomas habia bajado la cabeza; los hombres de la lonja fingian trabajar sin apartar del todo la atencion. Nadie queria mirar la ceniza demasiado de frente.
 

@@ -2,29 +2,56 @@ entities:
   nerea_vale:
     type: "person"
     role: "protagonist"
+    status: "active"
+    current_location: "Puerto Gris"
+    current_goal: "Understand the notebook and find Iago"
+    emotional_state: "uneasy, increasingly committed"
+    last_updated_in: "chapter_02"
     knows:
       - "Her father hid a notebook in the lighthouse."
       - "The ash has reappeared."
+      - "The notebook contains a pattern of tides, names, and marks."
     does_not_know:
       - "How the pact works"
       - "Where Iago is"
+    knowledge_changes:
+      - "The notebook appears tied to a recurring danger pattern."
   tomas_seoane:
     type: "person"
     role: "ambiguous ally"
+    status: "active"
+    current_location: "Puerto Gris harbor"
+    current_goal: "Contain the danger without confessing what he knows"
+    emotional_state: "guarded, strained"
+    last_updated_in: "chapter_02"
     knows:
       - "The notebook matters"
       - "The ash pattern is dangerous"
     does_not_know:
       - "Not confirmed on page"
+    knowledge_changes:
+      - "Publicly forced to react to Nerea's possession of the notebook."
   aurelia_montalvan:
     type: "person"
     role: "social antagonist"
+    status: "active"
+    current_location: "Puerto Gris"
+    current_goal: "Push Nerea out and preserve civic control"
+    emotional_state: "controlled, threatening"
+    last_updated_in: "chapter_02"
     knows:
       - "Nerea's return is politically dangerous"
+    knowledge_changes:
+      - "Shows active concern about the notebook and the ash event."
   iago_montalvan:
     type: "person"
     role: "missing boy"
     status: "missing by end of chapter 2"
+    current_location: "unknown"
+    current_goal: "unknown"
+    emotional_state: "unknown"
+    last_updated_in: "chapter_02"
+    knowledge_changes: []
   mateo_vale:
     type: "person"
     role: "dead father and former lighthouse keeper"

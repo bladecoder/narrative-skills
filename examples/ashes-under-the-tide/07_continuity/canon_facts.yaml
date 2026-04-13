@@ -15,3 +15,11 @@ facts:
     fact: "Mateo hid a notebook inside the lighthouse lantern structure."
     status: "established"
     source: "05_draft/chapter_01.md"
+  - id: notebook_pattern
+    fact: "The notebook links dates, tides, incomplete names, and repeated margin marks."
+    status: "established"
+    source: "05_draft/chapter_02.md"
+  - id: council_reference
+    fact: "The notebook contains the line 'Si vuelve la ceniza, no esperar al consejo.'"
+    status: "established"
+    source: "05_draft/chapter_02.md"

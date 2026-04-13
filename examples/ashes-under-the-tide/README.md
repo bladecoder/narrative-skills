@@ -10,6 +10,8 @@ Proyecto de novela breve de fantasia gotica y suspense costero.
 - Outline de tres actos definido
 - Capitulo 1 y capitulo 2 planificados y redactados
 - Reviews iniciales completadas
+- Capitulo 2 reescrito tras review
+- Estado de personajes y timeline sincronizados
 - Continuidad inicial actualizada
 
 ## Flujo recomendado
