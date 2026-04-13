@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manuscript Review"
+  short_description: "Review the manuscript at story level."
+  default_prompt: "Use $manuscript-review to review the manuscript across chapters for structure, pacing, coherence, and cumulative effect."

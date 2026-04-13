@@ -20,6 +20,7 @@ Extended fixture update created to exercise the post-review loop:
 - `update-character-state`
 - `update-timeline`
 - `sync-story-bible`
+- `manuscript-review`
 
 ## What was produced
 
@@ -30,7 +31,7 @@ Extended fixture update created to exercise the post-review loop:
 - Three-act outline and chapter map
 - Two chapter plans
 - Two chapter drafts, with chapter 2 revised
-- Two chapter reviews plus manuscript status note
+- Two chapter reviews plus one manuscript-level review
 - One revision artifact
 - Continuity YAML files updated from draft evidence
 - Character state, chapter status, open loops, and timeline synchronized
@@ -42,8 +43,8 @@ Extended fixture update created to exercise the post-review loop:
 - The workflow from outline to chapter review is coherent and traceable.
 - `load-story-context` fills the gap of checking readiness before downstream work.
 - The post-review loop is now explicit and persisted rather than implied.
+- The repo now has both chapter-level and manuscript-level editorial checkpoints.
 
 ## Gaps noticed
 
-- No dedicated skill yet for manuscript-level synthesis once many chapters exist.
 - The continuity YAML schema is intentionally light, but could be standardized further if automation increases.
