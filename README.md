@@ -4,6 +4,35 @@ Repository of narrative-writing skills for agentic fiction workflows.
 
 These skills are designed to let a coding-oriented console agent work as a story assistant with persistent files, explicit editorial artifacts, and a repeatable manuscript workflow.
 
+## Installation
+
+Use [scripts/install-skills.sh](/home/rgarcia/Projects/narrative-skills/scripts/install-skills.sh) to install all skills for Codex, Claude Code, or OpenCode.
+
+Supported install modes:
+- `symlink`
+- `copy`
+
+Examples:
+
+```bash
+scripts/install-skills.sh --target codex --mode symlink
+scripts/install-skills.sh --target claude-code --target opencode --mode copy
+scripts/install-skills.sh --target all --mode symlink --force
+scripts/install-skills.sh --target all --mode symlink --in-repo
+```
+
+Default target directories:
+- Codex: `${CODEX_HOME:-$HOME/.codex}/skills`
+- Claude Code: `${CLAUDE_CODE_HOME:-${CLAUDE_HOME:-$HOME/.claude}}/skills`
+- OpenCode: `${OPEN_CODE_HOME:-${OPENCODE_HOME:-$HOME/.config/opencode}}/skills`
+
+If you want a repository-local install for testing, use `--in-repo`. That writes to:
+- `.codex/skills`
+- `.claude/skills`
+- `.opencode/skills`
+
+You can override paths with `--codex-dir`, `--claude-dir`, `--opencode-dir`, or change the local install base with `--repo-dir`.
+
 ## Repository conventions
 
 - The current working directory is the root of the story project.
