@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate High-Level Outline"
+  short_description: "Build the story structure and chapter map."
+  default_prompt: "Use $generate-high-level-outline to turn the project premise and cast into a workable act and chapter structure."

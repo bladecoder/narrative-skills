@@ -1,0 +1,4 @@
+interface:
+  display_name: "Continuity Check"
+  short_description: "Check story continuity and canon drift."
+  default_prompt: "Use $continuity-check to detect continuity issues and update canon records for this project."

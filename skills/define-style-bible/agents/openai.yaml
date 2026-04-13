@@ -1,0 +1,4 @@
+interface:
+  display_name: "Define Style Bible"
+  short_description: "Create the prose and voice rules that govern a story project."
+  default_prompt: "Use $define-style-bible to turn a project brief into actionable narrative style rules."

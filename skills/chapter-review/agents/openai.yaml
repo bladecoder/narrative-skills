@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chapter Review"
+  short_description: "Review a drafted chapter editorially."
+  default_prompt: "Use $chapter-review to review a drafted chapter for narrative, stylistic, and structural issues."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft Chapter"
+  short_description: "Write a full chapter from project canon."
+  default_prompt: "Use $draft-chapter to write a chapter from the existing plan, style bible, and continuity files."

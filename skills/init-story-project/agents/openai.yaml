@@ -1,0 +1,4 @@
+interface:
+  display_name: "Init Story Project"
+  short_description: "Initialize a fiction project repository."
+  default_prompt: "Use $init-story-project to create or normalize a story project and persist the minimum briefing."

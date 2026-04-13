@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Character Bible"
+  short_description: "Define story characters and relationships."
+  default_prompt: "Use $create-character-bible to define the cast, dramatic roles, and key relationships for this project."

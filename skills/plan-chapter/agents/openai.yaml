@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Chapter"
+  short_description: "Design a chapter before drafting it."
+  default_prompt: "Use $plan-chapter to prepare a chapter plan with beats, purpose, and continuity checks."
