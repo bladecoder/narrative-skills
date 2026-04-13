@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beta Reader Pass"
+  short_description: "Simulate reader-level manuscript feedback."
+  default_prompt: "Use $beta-reader-pass to review the manuscript from a reader-experience perspective, focusing on engagement, confusion, payoff, and emotional response."

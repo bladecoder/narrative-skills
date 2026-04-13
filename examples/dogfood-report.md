@@ -21,6 +21,7 @@ Extended fixture update created to exercise the post-review loop:
 - `update-timeline`
 - `sync-story-bible`
 - `manuscript-review`
+- `beta-reader-pass`
 
 ## What was produced
 
@@ -32,6 +33,7 @@ Extended fixture update created to exercise the post-review loop:
 - Two chapter plans
 - Two chapter drafts, with chapter 2 revised
 - Two chapter reviews plus one manuscript-level review
+- One beta-reader style pass
 - One revision artifact
 - Continuity YAML files updated from draft evidence
 - Character state, chapter status, open loops, and timeline synchronized
@@ -44,6 +46,7 @@ Extended fixture update created to exercise the post-review loop:
 - `load-story-context` fills the gap of checking readiness before downstream work.
 - The post-review loop is now explicit and persisted rather than implied.
 - The repo now has both chapter-level and manuscript-level editorial checkpoints.
+- The repo now also has a reader-experience checkpoint distinct from editorial review.
 
 ## Gaps noticed
 
