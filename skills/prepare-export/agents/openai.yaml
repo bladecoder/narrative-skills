@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Export"
+  short_description: "Assemble manuscript export deliverables."
+  default_prompt: "Use $prepare-export to assemble an export-ready manuscript package from the current project files."

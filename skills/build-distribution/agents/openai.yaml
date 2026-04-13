@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Distribution"
+  short_description: "Convert exports to reader formats."
+  default_prompt: "Use $build-distribution to convert the current export package into PDF, EPUB, or HTML deliverables."
