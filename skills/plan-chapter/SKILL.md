@@ -80,6 +80,7 @@ This skill depends on `story.yaml` as the source of truth for project metadata.
 - Read `story.language` before writing planning files.
 - Keep file and folder names in English.
 - Write markdown content in the selected story language.
+- Use correct orthography, accents, and normal Unicode for that language.
 - If `story.language` is missing, gather it before writing.
 - If the relevant planning file is in a different language than `story.language`, flag the mismatch and resolve it deliberately.
 

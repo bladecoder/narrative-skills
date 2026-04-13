@@ -1,7 +1,7 @@
-# Lista de tabues
+# Lista de tabúes
 
-- Frases del tipo "no sabia entonces que..."
-- Adjetivacion recargada para describir el mar o la noche.
-- Exclamaciones dramaticas en narracion.
-- Monologos explicativos donde un personaje cuenta todo lo que sabe sin resistencia.
-- Comparaciones romanticas o bellas del cadaver, la ceniza o la ruina.
+- Frases del tipo "no sabía entonces que..."
+- Adjetivación recargada para describir el mar o la noche.
+- Exclamaciones dramáticas en narración.
+- Monólogos explicativos donde un personaje cuenta todo lo que sabe sin resistencia.
+- Comparaciones románticas o bellas del cadáver, la ceniza o la ruina.

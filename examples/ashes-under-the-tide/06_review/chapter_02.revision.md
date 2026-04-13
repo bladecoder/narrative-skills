@@ -1,18 +1,18 @@
-# Revision del capitulo 2
+# Revisión del capítulo 2
 
 ## Resumen de la pasada
 
-Se ha reforzado la progresion sensorial hacia la tormenta, se ha fijado mejor el patron de marcas del cuaderno y se ha vuelto mas concreta la amenaza social de Aurelia sin adelantar informacion estructural del pacto.
+Se ha reforzado la progresión sensorial hacia la tormenta, se ha fijado mejor el patrón de marcas del cuaderno y se ha vuelto más concreta la amenaza social de Aurelia sin adelantar información estructural del pacto.
 
 ## Hallazgos del review aplicados
 
-- Se reforzo la materialidad del patron del cuaderno para que el lector lo retenga mejor.
-- Se anadio una señal sensorial previa a la tormenta para suavizar la entrada del cambio atmosferico.
-- Se hizo mas concreta la presion social que acompana a Aurelia.
+- Se reforzó la materialidad del patrón del cuaderno para que el lector lo retenga mejor.
+- Se añadió una señal sensorial previa a la tormenta para suavizar la entrada del cambio atmosférico.
+- Se hizo más concreta la presión social que acompaña a Aurelia.
 
 ## Hallazgos diferidos
 
-- La frase sobre el consejo se mantiene por ahora, aunque debera revisarse de nuevo cuando exista el capitulo 3 y se pueda medir mejor su grado de explicitud.
+- La frase sobre el consejo se mantiene por ahora, aunque deberá revisarse de nuevo cuando exista el capítulo 3 y se pueda medir mejor su grado de explicitud.
 
 ## Hallazgos rechazados por conflicto
 
@@ -20,8 +20,8 @@ Se ha reforzado la progresion sensorial hacia la tormenta, se ha fijado mejor el
 
 ## Riesgos pendientes
 
-- Vigilar que Tomas no se vuelva demasiado transparente demasiado pronto.
-- Mantener la palabra "consejo" como intriga y no como explicacion prematura.
+- Vigilar que Tomás no se vuelva demasiado transparente demasiado pronto.
+- Mantener la palabra "consejo" como intriga y no como explicación prematura.
 
 ## Siguiente skill recomendada
 

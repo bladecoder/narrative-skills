@@ -99,6 +99,7 @@ Normalization rules:
 - missing required sections should be created if enough evidence exists to do so safely;
 - existing values should be preserved unless clearly invalid or contradicted by stronger project evidence;
 - `story.language` is mandatory for content-writing skills and should be treated as blocking when absent;
+- human-readable content and free-text metadata values should use correct orthography and normal Unicode for the selected language;
 - `workflow.canonical_root` should remain `"."` for this repository convention.
 
 ## Procedure

@@ -74,8 +74,9 @@ This skill depends on `story.yaml` as the source of truth for project metadata.
 
 - Read `story.language` before interpreting project content.
 - Keep YAML keys in English.
-- Values in `entities.yaml` may remain concise English operational labels when that improves consistency with the continuity layer.
-- If the project already uses a different value language inside continuity YAML, preserve that convention consistently instead of mixing styles.
+- Write human-readable YAML values in the selected story language.
+- Use correct orthography, accents, and normal Unicode for that language.
+- If the project already uses another explicit continuity-value convention, preserve it consistently instead of mixing styles.
 
 ## Procedure
 

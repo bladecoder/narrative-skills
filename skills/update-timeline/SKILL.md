@@ -67,7 +67,7 @@ This skill depends on `story.yaml` as the source of truth for project metadata.
 - Keep file and folder names in English.
 - Write `timeline.md` in the selected story language.
 - Keep YAML keys in English.
-- Preserve the current language convention of YAML values when the project already uses one consistently.
+- Write human-readable YAML values in the selected story language with correct orthography, accents, and normal Unicode.
 
 ## Procedure
 

@@ -1,145 +1,145 @@
-# Lista provisional de capitulos
+# Lista provisional de capítulos
 
-## Capitulo 1
+## Capítulo 1
 
 - Status: reviewed
 - POV: Nerea
-- Proposito dramatico: regresar al faro, restablecer la atmosfera del pueblo y descubrir la primera pista material.
+- Propósito dramático: regresar al faro, restablecer la atmósfera del pueblo y descubrir la primera pista material.
 - Resumen: Nerea llega a Puerto Gris, reabre la casa de su padre y comprueba que la hostilidad del pueblo no es simple distancia. Durante la noche encuentra un cuaderno oculto dentro de la linterna del faro.
 - Cambio: pasa de querer liquidar la herencia sin detenerse a sospechar que la muerte de su padre no fue un accidente simple.
 
-## Capitulo 2
+## Capítulo 2
 
 - Status: revised
 - POV: Nerea
-- Proposito dramatico: conectar la pista del cuaderno con un peligro presente y forzar a Nerea a implicarse.
-- Resumen: Nerea intenta leer el cuaderno y detecta un patron de mareas y nombres incompletos. En el puerto, Tomas reconoce el peligro sin explicarlo y Aurelia deja claro que la presencia de Nerea altera un equilibrio que el pueblo prefiere no nombrar. Tras el regreso de la ceniza, Iago Montalvan desaparece y la investigacion deja de ser un asunto privado.
-- Cambio: la investigacion deja de ser privada y se convierte en conflicto publico con urgencia.
+- Propósito dramático: conectar la pista del cuaderno con un peligro presente y forzar a Nerea a implicarse.
+- Resumen: Nerea intenta leer el cuaderno y detecta un patrón de mareas y nombres incompletos. En el puerto, Tomás reconoce el peligro sin explicarlo y Aurelia deja claro que la presencia de Nerea altera un equilibrio que el pueblo prefiere no nombrar. Tras el regreso de la ceniza, Iago Montalván desaparece y la investigación deja de ser un asunto privado.
+- Cambio: la investigación deja de ser privada y se convierte en conflicto público con urgencia.
 
-## Capitulo 3
+## Capítulo 3
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: abrir la linea historica del pacto y la implicacion del padre.
+- Propósito dramático: abrir la línea histórica del pacto y la implicación del padre.
 - Resumen: Nerea visita el archivo parroquial y encuentra huecos imposibles en los registros de los muertos.
 - Cambio: comprende que faltan nombres, no solo datos.
 
-## Capitulo 4
+## Capítulo 4
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: tensar la relacion con Tomas y revelar una media verdad.
-- Resumen: Tomas admite que el faro guardaba listas de nombres que nunca debian leerse en voz alta.
+- Propósito dramático: tensar la relación con Tomás y revelar una media verdad.
+- Resumen: Tomás admite que el faro guardaba listas de nombres que nunca debían leerse en voz alta.
 - Cambio: Nerea obtiene un aliado incompleto y una regla del pacto.
 
-## Capitulo 5
+## Capítulo 5
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: relacionar la desaparicion de la madre con el pacto.
-- Resumen: un recuerdo infantil y una anotacion del cuaderno encajan por primera vez.
-- Cambio: la investigacion se vuelve tambien una acusacion familiar.
+- Propósito dramático: relacionar la desaparición de la madre con el pacto.
+- Resumen: un recuerdo infantil y una anotación del cuaderno encajan por primera vez.
+- Cambio: la investigación se vuelve también una acusación familiar.
 
-## Capitulo 6
-
-- Status: planned
-- POV: Nerea
-- Proposito dramatico: hacer visible la maquinaria social del silencio.
-- Resumen: Aurelia presiona a la cofradia para contener los rumores y aislar a Nerea.
-- Cambio: el enemigo deja de ser abstracto y toma forma politica.
-
-## Capitulo 7
+## Capítulo 6
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: obtener la prueba de que el padre era guardian del pacto.
-- Resumen: Nerea entra en la camara sellada bajo el faro.
-- Cambio: obtiene evidencia y tambien culpa personal.
+- Propósito dramático: hacer visible la maquinaria social del silencio.
+- Resumen: Aurelia presiona a la cofradía para contener los rumores y aislar a Nerea.
+- Cambio: el enemigo deja de ser abstracto y toma forma política.
 
-## Capitulo 8
-
-- Status: planned
-- POV: Nerea
-- Proposito dramatico: perder una ventaja y quedar expuesta.
-- Resumen: alguien roba el cuaderno y manipula el relato publico.
-- Cambio: Nerea se queda sin su prueba mas concreta.
-
-## Capitulo 9
+## Capítulo 7
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: midpoint de revelacion.
+- Propósito dramático: obtener la prueba de que el padre era guardián del pacto.
+- Resumen: Nerea entra en la cámara sellada bajo el faro.
+- Cambio: obtiene evidencia y también culpa personal.
+
+## Capítulo 8
+
+- Status: planned
+- POV: Nerea
+- Propósito dramático: perder una ventaja y quedar expuesta.
+- Resumen: alguien roba el cuaderno y manipula el relato público.
+- Cambio: Nerea se queda sin su prueba más concreta.
+
+## Capítulo 9
+
+- Status: planned
+- POV: Nerea
+- Propósito dramático: midpoint de revelación.
 - Resumen: descubre que el pacto funciona mediante nombres recordados colectivamente y no por sangre.
-- Cambio: cambia la logica del conflicto.
+- Cambio: cambia la lógica del conflicto.
 
-## Capitulo 10
+## Capítulo 10
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: aumentar la fractura moral con Tomas.
-- Resumen: Tomas admite que consintio una entrega anos atras.
+- Propósito dramático: aumentar la fractura moral con Tomás.
+- Resumen: Tomás admite que consintió una entrega años atrás.
 - Cambio: la confianza se quiebra.
 
-## Capitulo 11
+## Capítulo 11
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: acercar a Nerea a la verdad sobre su madre.
-- Resumen: una testigo anciana recuerda una vigilia en el faro que nunca consto en ningun registro.
+- Propósito dramático: acercar a Nerea a la verdad sobre su madre.
+- Resumen: una testigo anciana recuerda una vigilia en el faro que nunca constó en ningún registro.
 - Cambio: el pasado deja de ser solo sospecha.
 
-## Capitulo 12
+## Capítulo 12
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: crisis de pertenencia.
+- Propósito dramático: crisis de pertenencia.
 - Resumen: el pueblo responsabiliza a Nerea del nuevo desequilibrio.
 - Cambio: queda sola y casi decide marcharse.
 
-## Capitulo 13
+## Capítulo 13
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: reenganchar el objetivo con nueva voluntad.
-- Resumen: Nerea descubre que Iago sigue vivo mientras no se consume el ultimo registro del faro.
+- Propósito dramático: reenganchar el objetivo con nueva voluntad.
+- Resumen: Nerea descubre que Iago sigue vivo mientras no se consume el último registro del faro.
 - Cambio: el rescate vuelve posible el conflicto final.
 
-## Capitulo 14
+## Capítulo 14
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: preparar el asalto final al ritual.
-- Resumen: reune pruebas, enfrenta a Tomas y decide exponer los nombres ocultos.
+- Propósito dramático: preparar el asalto final al ritual.
+- Resumen: reúne pruebas, enfrenta a Tomás y decide exponer los nombres ocultos.
 - Cambio: pasa de investigar a actuar.
 
-## Capitulo 15
+## Capítulo 15
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: crisis final.
+- Propósito dramático: crisis final.
 - Resumen: Aurelia activa el ritual con apoyo de parte del pueblo.
-- Cambio: el sacrificio entra en cuenta atras.
+- Cambio: el sacrificio entra en cuenta atrás.
 
-## Capitulo 16
+## Capítulo 16
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: clímax fisico y moral.
+- Propósito dramático: clímax físico y moral.
 - Resumen: Nerea sube al faro durante la tormenta y pronuncia los nombres silenciados.
 - Cambio: rompe el pacto y devuelve la memoria enterrada.
 
-## Capitulo 17
+## Capítulo 17
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: consecuencias.
+- Propósito dramático: consecuencias.
 - Resumen: el pueblo enfrenta la verdad y se fractura.
 - Cambio: la supervivencia ya no puede sostenerse sobre el olvido.
 
-## Capitulo 18
+## Capítulo 18
 
 - Status: planned
 - POV: Nerea
-- Proposito dramatico: resolucion amarga.
-- Resumen: Nerea decide que hacer con el faro y con la memoria de sus padres.
+- Propósito dramático: resolución amarga.
+- Resumen: Nerea decide qué hacer con el faro y con la memoria de sus padres.
 - Cambio: acepta que recordar no limpia la culpa, pero evita repetirla.

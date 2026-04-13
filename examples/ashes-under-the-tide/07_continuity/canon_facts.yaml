@@ -1,25 +1,25 @@
 facts:
   - id: father_death
-    fact: "Mateo Vale died nine months before the story after falling from the lighthouse stairs."
+    fact: "Mateo Vale murió nueve meses antes de la historia al caer por la escalera del faro."
     status: "established"
     source: "00_meta/premise.md"
   - id: ash_returns
-    fact: "Black ash appears in connection with disruptions tied to the pact."
+    fact: "La ceniza negra aparece en relación con desequilibrios ligados al pacto."
     status: "established"
     source: "02_story/worldbuilding.md"
   - id: iago_missing
-    fact: "Iago Montalvan disappears on day 2 near the old breakwater."
+    fact: "Iago Montalván desaparece el día 2 cerca del espigón viejo."
     status: "established"
     source: "05_draft/chapter_02.md"
   - id: notebook_hidden
-    fact: "Mateo hid a notebook inside the lighthouse lantern structure."
+    fact: "Mateo escondió un cuaderno dentro de la estructura de la linterna del faro."
     status: "established"
     source: "05_draft/chapter_01.md"
   - id: notebook_pattern
-    fact: "The notebook links dates, tides, incomplete names, and repeated margin marks."
+    fact: "El cuaderno relaciona fechas, mareas, nombres incompletos y marcas repetidas en el margen."
     status: "established"
     source: "05_draft/chapter_02.md"
   - id: council_reference
-    fact: "The notebook contains the line 'Si vuelve la ceniza, no esperar al consejo.'"
+    fact: "El cuaderno contiene la frase 'Si vuelve la ceniza, no esperar al consejo.'"
     status: "established"
     source: "05_draft/chapter_02.md"

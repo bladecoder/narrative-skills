@@ -83,6 +83,7 @@ This skill depends on `story.yaml` as the source of truth for project metadata.
 - Read `story.language` before updating markdown story files.
 - Keep file and folder names in English.
 - Write markdown content in the selected story language.
+- Use correct orthography, accents, and normal Unicode for that language.
 - Keep YAML keys in English.
 - Preserve the established value-language pattern in `story.yaml` unless a deliberate migration is requested.
 

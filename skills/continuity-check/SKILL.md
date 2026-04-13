@@ -74,6 +74,7 @@ This skill depends on `story.yaml` as the source of truth for project metadata.
 - Keep file and folder names in English.
 - Write markdown review notes in the selected story language.
 - Keep YAML keys in English.
+- Write human-readable YAML values with correct orthography, accents, and normal Unicode for the selected language unless the project has an explicit alternate convention.
 - If `story.language` is missing, gather it before writing narrative review notes.
 
 ## Classification Rules

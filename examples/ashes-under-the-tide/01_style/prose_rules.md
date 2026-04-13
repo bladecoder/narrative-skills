@@ -2,26 +2,26 @@
 
 ## Hacer
 
-- Usar imagenes sensoriales concretas y fisicas.
-- Mantener frases medias con variacion controlada.
-- Dejar que las emociones aparezcan a traves de gesto, decision y percepcion.
-- Hacer que cada escena cambie el estado de la investigacion o de la relacion.
+- Usar imágenes sensoriales concretas y físicas.
+- Mantener frases medias con variación controlada.
+- Dejar que las emociones aparezcan a través de gesto, decisión y percepción.
+- Hacer que cada escena cambie el estado de la investigación o de la relación.
 
 ## Evitar
 
-- Explicar dos veces la misma emocion.
-- Cerrar los parrafos con enfasis melodramatico constante.
+- Explicar dos veces la misma emoción.
+- Cerrar los párrafos con énfasis melodramático constante.
 - Insertar lore en bloques abstractos.
-- Llenar el texto de adjetivos atmosfericos repetidos.
+- Llenar el texto de adjetivos atmosféricos repetidos.
 
 ## Preferible
 
-- Dialogos con subtexto y reticencia.
-- Metaforas sobrias ligadas al mar, la oxidacion y el peso de la memoria.
+- Diálogos con subtexto y reticencia.
+- Metáforas sobrias ligadas al mar, la oxidación y el peso de la memoria.
 - Finales de escena que desplazan la sospecha o la culpa.
 
 ## No abusar
 
-- Preguntas retoricas.
+- Preguntas retóricas.
 - Frases nominales encadenadas.
 - Simbolismo demasiado visible.

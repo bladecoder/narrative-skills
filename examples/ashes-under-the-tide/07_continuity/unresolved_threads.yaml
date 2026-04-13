@@ -1,21 +1,21 @@
 threads:
   - id: pact_mechanism
     status: "open"
-    question: "How exactly does the memory pact work?"
+    question: "¿Cómo funciona exactamente el pacto de memoria?"
     last_touched_in: "chapter_02"
   - id: father_role
     status: "open"
-    question: "What role did Mateo play in maintaining the pact?"
+    question: "¿Qué papel desempeñó Mateo en el mantenimiento del pacto?"
     last_touched_in: "chapter_02"
   - id: mother_fate
     status: "open"
-    question: "What really happened to Nerea's mother?"
+    question: "¿Qué ocurrió realmente con la madre de Nerea?"
     last_touched_in: "chapter_01"
   - id: iago_whereabouts
     status: "open"
-    question: "Is Iago alive and where is he being held?"
+    question: "¿Iago sigue vivo y dónde está retenido?"
     last_touched_in: "chapter_02"
   - id: council_identity
     status: "open"
-    question: "What is the consejo mentioned in Mateo's notebook, and who belongs to it?"
+    question: "¿Qué es el consejo mencionado en el cuaderno de Mateo y quién pertenece a él?"
     last_touched_in: "chapter_02"

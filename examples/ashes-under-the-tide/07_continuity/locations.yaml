@@ -2,19 +2,19 @@ locations:
   puerto_gris:
     type: "coastal town"
     facts:
-      - "Fishing town in decline"
-      - "Social pressure favors silence over disclosure"
+      - "Pueblo pesquero en decadencia"
+      - "La presión social favorece el silencio antes que la revelación"
   lighthouse:
     type: "building"
     facts:
-      - "Nerea's father worked there"
-      - "The hidden notebook is stored in the lantern structure"
+      - "El padre de Nerea trabajó allí"
+      - "El cuaderno oculto está guardado en la estructura de la linterna"
   old_breakwater:
     type: "shore structure"
     facts:
-      - "Iago was last seen near this place"
+      - "Iago fue visto por última vez cerca de este lugar"
   harbor:
     type: "working port area"
     facts:
-      - "Tomas reacts to the notebook here in chapter 2"
-      - "The ash becomes publicly visible from this zone on day 2"
+      - "Tomás reacciona al cuaderno aquí en el capítulo 2"
+      - "La ceniza se vuelve visible públicamente desde esta zona el día 2"

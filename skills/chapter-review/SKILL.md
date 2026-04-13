@@ -70,6 +70,7 @@ This skill depends on `story.yaml` as the source of truth for project metadata.
 - Read `story.language` before writing the review file.
 - Keep file and folder names in English.
 - Write the review content in the selected story language.
+- Use correct orthography, accents, and normal Unicode for that language.
 - If `story.language` is missing, gather it before writing.
 - If the review file uses a different language than `story.language`, flag the mismatch and resolve it deliberately.
 

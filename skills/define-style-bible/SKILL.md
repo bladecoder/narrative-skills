@@ -65,11 +65,12 @@ Write or update:
 
 This skill depends on `story.yaml` as the source of truth for language metadata.
 
-- Read `story.story.language` before writing style files.
+- Read `story.language` before writing style files.
 - Keep filenames in English.
 - Write the markdown content in the selected story language.
-- If `story.story.language` is missing, stop and gather it before writing.
-- If existing style files are in a different language than `story.story.language`, flag the mismatch and resolve it deliberately instead of mixing languages silently.
+- Use correct orthography, accents, and normal Unicode for that language.
+- If `story.language` is missing, stop and gather it before writing.
+- If existing style files are in a different language than `story.language`, flag the mismatch and resolve it deliberately instead of mixing languages silently.
 
 ## Procedure
 

@@ -143,7 +143,8 @@ Rules for language handling:
 
 - folder names and standard file names stay in English;
 - YAML keys stay in English;
-- markdown content must be written in the selected `story.language`;
+- human-readable content must be written in the selected `story.language`;
+- use correct orthography, accents, and normal Unicode characters for that language;
 - if the language is unknown, ask for it before writing content templates;
 - later skills must treat `story.language` as mandatory shared metadata.
 
@@ -164,7 +165,8 @@ Rules for language handling:
 When creating template content:
 
 - keep filenames fixed in English;
-- write headings, instructions, and placeholder text in the selected story language;
+- write headings, instructions, placeholder text, and free-text YAML values in the selected story language;
+- write that content with correct spelling, accents, and punctuation for the selected language;
 - prefer short operational prompts over empty files;
 - make templates specific enough that the next skill can continue immediately.
 
