@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Character State"
+  short_description: "Persist post-chapter character state."
+  default_prompt: "Use $update-character-state to update character state in continuity files after a chapter or rewrite."

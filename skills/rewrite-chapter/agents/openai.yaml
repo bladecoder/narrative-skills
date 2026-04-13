@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rewrite Chapter"
+  short_description: "Rewrite a chapter from review feedback."
+  default_prompt: "Use $rewrite-chapter to revise a drafted chapter from its review, style rules, and continuity constraints."

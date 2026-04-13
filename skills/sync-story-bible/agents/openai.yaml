@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync Story Bible"
+  short_description: "Sync outline and story bible state."
+  default_prompt: "Use $sync-story-bible to synchronize chapter status, open loops, and story-level files after revisions."

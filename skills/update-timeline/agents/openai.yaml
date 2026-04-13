@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Timeline"
+  short_description: "Sync timeline and dated story facts."
+  default_prompt: "Use $update-timeline to sync timeline and dated facts after a chapter becomes stable."
