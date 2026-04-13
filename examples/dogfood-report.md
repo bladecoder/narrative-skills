@@ -37,6 +37,7 @@ Extended fixture update created to exercise the post-review loop:
 - Two chapter reviews plus one manuscript-level review
 - One beta-reader style pass
 - One export package under `08_exports/`
+- One distribution package under `08_exports/dist/` with HTML, EPUB, and PDF
 - One revision artifact
 - Continuity YAML files updated from draft evidence
 - Character state, chapter status, open loops, and timeline synchronized
@@ -52,9 +53,9 @@ Extended fixture update created to exercise the post-review loop:
 - The repo now also has a reader-experience checkpoint distinct from editorial review.
 - The repo now covers export packaging as a final workflow stage.
 - The repo now defines a distribution stage for HTML, EPUB, and PDF generation.
+- The distribution stage has been dogfooded end-to-end with `pandoc` plus `xelatex`.
 
 ## Gaps noticed
 
 - The continuity YAML schema is intentionally light, but could be standardized further if automation increases.
 - Export format variants are still minimal and could be expanded later if multiple target formats are needed.
-- Distribution backends are not installed in this environment, so the new skill is implemented but not dogfooded end-to-end here.
