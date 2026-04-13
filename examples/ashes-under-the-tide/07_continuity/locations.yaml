@@ -1,0 +1,15 @@
+locations:
+  puerto_gris:
+    type: "coastal town"
+    facts:
+      - "Fishing town in decline"
+      - "Social pressure favors silence over disclosure"
+  lighthouse:
+    type: "building"
+    facts:
+      - "Nerea's father worked there"
+      - "The hidden notebook is stored in the lantern structure"
+  old_breakwater:
+    type: "shore structure"
+    facts:
+      - "Iago was last seen near this place"

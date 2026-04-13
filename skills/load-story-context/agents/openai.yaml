@@ -1,0 +1,4 @@
+interface:
+  display_name: "Load Story Context"
+  short_description: "Load and normalize story project metadata."
+  default_prompt: "Use $load-story-context to read the current story project, normalize shared metadata, and identify missing or inconsistent context."

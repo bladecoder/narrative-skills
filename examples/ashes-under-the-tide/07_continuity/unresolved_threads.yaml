@@ -1,0 +1,17 @@
+threads:
+  - id: pact_mechanism
+    status: "open"
+    question: "How exactly does the memory pact work?"
+    last_touched_in: "chapter_02"
+  - id: father_role
+    status: "open"
+    question: "What role did Mateo play in maintaining the pact?"
+    last_touched_in: "chapter_02"
+  - id: mother_fate
+    status: "open"
+    question: "What really happened to Nerea's mother?"
+    last_touched_in: "chapter_01"
+  - id: iago_whereabouts
+    status: "open"
+    question: "Is Iago alive and where is he being held?"
+    last_touched_in: "chapter_02"

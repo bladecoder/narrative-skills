@@ -1,0 +1,31 @@
+entities:
+  nerea_vale:
+    type: "person"
+    role: "protagonist"
+    knows:
+      - "Her father hid a notebook in the lighthouse."
+      - "The ash has reappeared."
+    does_not_know:
+      - "How the pact works"
+      - "Where Iago is"
+  tomas_seoane:
+    type: "person"
+    role: "ambiguous ally"
+    knows:
+      - "The notebook matters"
+      - "The ash pattern is dangerous"
+    does_not_know:
+      - "Not confirmed on page"
+  aurelia_montalvan:
+    type: "person"
+    role: "social antagonist"
+    knows:
+      - "Nerea's return is politically dangerous"
+  iago_montalvan:
+    type: "person"
+    role: "missing boy"
+    status: "missing by end of chapter 2"
+  mateo_vale:
+    type: "person"
+    role: "dead father and former lighthouse keeper"
+    status: "dead before chapter 1"

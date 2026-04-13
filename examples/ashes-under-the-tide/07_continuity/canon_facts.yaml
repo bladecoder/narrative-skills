@@ -1,0 +1,17 @@
+facts:
+  - id: father_death
+    fact: "Mateo Vale died nine months before the story after falling from the lighthouse stairs."
+    status: "established"
+    source: "00_meta/premise.md"
+  - id: ash_returns
+    fact: "Black ash appears in connection with disruptions tied to the pact."
+    status: "established"
+    source: "02_story/worldbuilding.md"
+  - id: iago_missing
+    fact: "Iago Montalvan disappears on day 2 near the old breakwater."
+    status: "established"
+    source: "05_draft/chapter_02.md"
+  - id: notebook_hidden
+    fact: "Mateo hid a notebook inside the lighthouse lantern structure."
+    status: "established"
+    source: "05_draft/chapter_01.md"
