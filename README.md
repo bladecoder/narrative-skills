@@ -8,6 +8,8 @@ These skills are designed to let a coding-oriented console agent work as a story
 
 Use [scripts/install-skills.sh](/home/rgarcia/Projects/narrative-skills/scripts/install-skills.sh) to install all skills for Codex, Claude Code, or OpenCode.
 
+If you run the script without arguments, it prints the help instead of installing anything.
+
 Supported install modes:
 - `symlink`
 - `copy`
@@ -26,7 +28,7 @@ Default target directories:
 - Claude Code: `${CLAUDE_CODE_HOME:-${CLAUDE_HOME:-$HOME/.claude}}/skills`
 - OpenCode: `${OPEN_CODE_HOME:-${OPENCODE_HOME:-$HOME/.config/opencode}}/skills`
 
-If you want a repository-local install for testing, use `--in-repo`. That writes to:
+If you want a repository-local install for testing, use `--in-repo`. By default it writes into the repository you run the script from, or the current directory if that directory is not inside a Git repository. It writes to:
 - `.codex/skills`
 - `.claude/skills`
 - `.opencode/skills`

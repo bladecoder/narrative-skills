@@ -5,6 +5,8 @@ set -euo pipefail
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd -- "${SCRIPT_DIR}/.." && pwd)"
 SOURCE_SKILLS_DIR="${REPO_ROOT}/skills"
+INVOCATION_DIR="$(pwd -P)"
+CALLER_REPO_ROOT="$(git -C "${INVOCATION_DIR}" rev-parse --show-toplevel 2>/dev/null || printf '%s\n' "${INVOCATION_DIR}")"
 
 MODE="symlink"
 FORCE=0
@@ -15,10 +17,11 @@ TARGETS=()
 CODEX_DIR="${CODEX_HOME:-$HOME/.codex}/skills"
 CLAUDE_DIR="${CLAUDE_CODE_HOME:-${CLAUDE_HOME:-$HOME/.claude}}/skills"
 OPENCODE_DIR="${OPEN_CODE_HOME:-${OPENCODE_HOME:-$HOME/.config/opencode}}/skills"
-REPO_INSTALL_ROOT="${REPO_ROOT}"
+REPO_INSTALL_ROOT="${CALLER_REPO_ROOT}"
 CUSTOM_CODEX_DIR=0
 CUSTOM_CLAUDE_DIR=0
 CUSTOM_OPENCODE_DIR=0
+ARG_COUNT=$#
 
 usage() {
   cat <<'EOF'
@@ -34,7 +37,7 @@ Options:
   --force               Replace existing installed skills
   --dry-run             Print actions without modifying the filesystem
   --in-repo             Install into directories inside the current repository
-  --repo-dir PATH       Base directory to use with --in-repo. Default: repository root
+  --repo-dir PATH       Base directory to use with --in-repo. Default: caller repository root
   --codex-dir PATH      Override Codex skills directory
   --claude-dir PATH     Override Claude Code skills directory
   --opencode-dir PATH   Override OpenCode skills directory
@@ -254,6 +257,11 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+if [[ "${ARG_COUNT}" -eq 0 ]]; then
+  usage
+  exit 0
+fi
+
 if [[ ! -d "${SOURCE_SKILLS_DIR}" ]]; then
   fail "Skills directory not found: ${SOURCE_SKILLS_DIR}"
 fi
@@ -268,10 +276,6 @@ if [[ "${IN_REPO}" -eq 1 ]]; then
   if [[ "${CUSTOM_OPENCODE_DIR}" -eq 0 ]]; then
     OPENCODE_DIR="${REPO_INSTALL_ROOT}/.opencode/skills"
   fi
-fi
-
-if [[ ${#TARGETS[@]} -eq 0 ]]; then
-  append_target "codex"
 fi
 
 log "Repository root: ${REPO_ROOT}"
