@@ -1,0 +1,90 @@
+html {
+  color-scheme: light dark;
+  font-size: 100%;
+}
+
+:root {
+  --bg: #f8f3ea;
+  --fg: #1f1a17;
+  --muted: #3b322c;
+  --rule: #b8aa95;
+}
+
+@page {
+  size: A4;
+  margin: 22mm 20mm 24mm 20mm;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 46em;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13.5pt;
+  line-height: 1.56;
+  color: var(--fg);
+  background: var(--bg);
+  padding: 2.2rem 1.2rem 3rem;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 1.45em;
+  line-height: 1.2;
+  margin: 0 0 1.2rem;
+  page-break-before: always;
+}
+
+h1:first-of-type {
+  page-break-before: auto;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+ul {
+  margin: 0 0 1rem 1.2rem;
+}
+
+li {
+  margin: 0.35rem 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2rem 0;
+}
+
+blockquote {
+  margin: 1rem 0 1rem 1.2rem;
+  color: var(--muted);
+}
+
+code {
+  font-family: inherit;
+  background: transparent;
+}
+
+a {
+  color: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11100e;
+    --fg: #ece3d7;
+    --muted: #c7bbad;
+    --rule: #5d5248;
+  }
+}
+
+@media print {
+  body {
+    background: white;
+    padding: 0;
+    max-width: none;
+    font-size: 13.5pt;
+    line-height: 1.56;
+  }
+}

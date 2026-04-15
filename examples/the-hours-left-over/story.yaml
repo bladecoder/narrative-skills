@@ -1,0 +1,23 @@
+project:
+  title: "The Hours Left Over"
+  format: "short story"
+  status: "exported"
+
+story:
+  genre: "science fiction"
+  subgenre: "cyberpunk biotech dystopia"
+  language: "English"
+  audience: "adult"
+  estimated_length: "3500-5000 words"
+  premise_status: "confirmed"
+
+narrative:
+  tone: "tense, intimate, neon-lit"
+  voice: "first-person confessional with precise sensory detail and cyberpunk grime"
+  pov: "first person"
+  tense: "past"
+
+workflow:
+  canonical_root: "."
+  initialized_at: "2026-04-15"
+  next_skill: "none"

@@ -1,0 +1,9 @@
+# Synopsis
+
+Martin Arce works in adverse-effect oversight for Nexora Therapeutics, the biotech giant behind Vigil, the drug that removed the need for sleep and rewired the city into a permanent commercial glow. He reviews flagged anomalies from users who report micro-blackouts and impossible sensory episodes. During a field interview with a transport driver named Dalia Ventosa, Martin hears a pattern he cannot dismiss: she blacked out while awake and found herself inside a dream she had no permission to be having.
+
+Soon Martin suffers his own intrusion. He loses nearly a minute on the metro and regains awareness in front of a stranger's apartment door with the irrational certainty that someone he loved is sleeping on the other side. He digs into older research and discovers that Vigil does not erase sleep pressure. It redistributes it. The brain keeps trying to enter dream states in fragments, forcing REM-like content into waking perception.
+
+With help from data analyst Ines Baeza, Martin uncovers suppressed internal studies and learns that Nexora already knows the long-term consequence: reality-dream convergence at population scale. His supervisor, Vera Cid, calls the episodes manageable and prepares a booster rollout meant to stabilize labor confidence. Martin realizes the booster will not solve the problem. It will deepen the fracture.
+
+As intrusion events spread through the city, Martin leaks the buried research, injects a restoration protocol into Nexora's update network, and triggers the return of true sleep. The sleepless system stutters. Streets empty, ad towers dim, transit guidance fails over, and millions collapse into unplanned rest. Martin watches the city finally go dark and accepts the collapse he has chosen, because the alternative was a cybernetic civilization that stayed awake until it could no longer tell waking from dream.

@@ -1,0 +1,25 @@
+entities:
+  - id: martin_arce
+    type: "person"
+    status: "active"
+    description: "Nexora adverse-effect oversight technician and story protagonist."
+  - id: ines_baeza
+    type: "person"
+    status: "active"
+    description: "Nexora signal integrity analyst who helps uncover the suppressed data."
+  - id: vera_cid
+    type: "person"
+    status: "active"
+    description: "Martin's supervisor and defender of systemic stability."
+  - id: dalia_ventosa
+    type: "person"
+    status: "active"
+    description: "Municipal freight driver whose case anchors the early anomaly."
+  - id: nexora
+    type: "organization"
+    status: "active"
+    description: "Pharmaceutical corporation behind Vigil."
+  - id: vigil
+    type: "product"
+    status: "active"
+    description: "Wake-maintenance drug that removed socially visible sleep while leaving sleep pressure unresolved."

@@ -1,0 +1,12 @@
+title: "The Hours Left Over"
+language: "English"
+exported_scope: "chapters_01_03"
+chapter_count: 3
+project_status: "exported"
+generated_from:
+  - "05_draft/chapter_01.md"
+  - "05_draft/chapter_02.md"
+  - "05_draft/chapter_03.md"
+notes:
+  - "Reader-facing complete short story export"
+  - "Chapter 2 uses the revised draft state"

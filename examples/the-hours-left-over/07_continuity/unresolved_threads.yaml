@@ -1,0 +1,7 @@
+threads:
+  - id: post_release_aftermath
+    status: "open"
+    description: "The social and legal aftermath of the restoration release remains outside the story scope."
+  - id: nexora_consequences
+    status: "open"
+    description: "Nexora's institutional survival and liability are unresolved."

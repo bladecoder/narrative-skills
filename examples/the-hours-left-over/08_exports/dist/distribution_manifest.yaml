@@ -1,0 +1,19 @@
+title: "The Hours Left Over"
+language: "English"
+source_export: "08_exports/manuscript_export.md"
+requested_formats:
+  - "html"
+  - "epub"
+  - "pdf"
+produced_formats:
+  - "html"
+  - "epub"
+  - "pdf"
+backend:
+  html: "pandoc 3.1.11.1"
+  epub: "pandoc 3.1.11.1"
+  pdf: "google-chrome --headless print-to-pdf"
+blocked_formats: []
+notes:
+  - "Built from the accepted export package after cyberpunk style adjustments."
+  - "PDF generated from the exported HTML because no LaTeX or dedicated PDF engine was available."

@@ -1,0 +1,29 @@
+facts:
+  - id: vigil_global
+    fact: "Vigil has been commercially dominant for four years and reorganized society around continuous wakefulness."
+    status: "established"
+    source: "05_draft/chapter_01.md"
+  - id: dalia_case
+    fact: "Dalia Ventosa experienced a forty-nine-second roadway blackout and described a corridor that behaved like dream content."
+    status: "established"
+    source: "05_draft/chapter_01.md"
+  - id: martin_first_intrusion
+    fact: "Martin lost fifty-seven seconds on the metro and perceived his mother's apartment as if someone inside were asleep."
+    status: "established"
+    source: "05_draft/chapter_01.md"
+  - id: suppressed_research
+    fact: "Suppressed Nexora research states that Vigil did not resolve sleep pressure and that dream-state processing persisted under constraint."
+    status: "established"
+    source: "05_draft/chapter_01.md"
+  - id: convergence_projection
+    fact: "Nexora modeled population-scale reality-dream convergence within 18-24 months in dense metropolitan zones."
+    status: "established"
+    source: "05_draft/chapter_02.md"
+  - id: booster_rollout
+    fact: "Nexora planned a booster update to protect market confidence rather than solve the underlying condition."
+    status: "established"
+    source: "05_draft/chapter_02.md"
+  - id: restoration_release
+    fact: "Martin and Ines released a restoration protocol through Nexora's update network, causing mass return to true sleep."
+    status: "established"
+    source: "05_draft/chapter_03.md"

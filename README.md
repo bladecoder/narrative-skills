@@ -122,7 +122,7 @@ flowchart TD
 
 ## Example fixture
 
-The repository includes a full sample project in [examples/ashes-under-the-tide/README.md](examples/ashes-under-the-tide/README.md), a dogfood summary in [examples/dogfood-report.md](examples/dogfood-report.md), and a concise end-to-end workflow example in [examples/workflow.md](examples/workflow.md).
+The repository includes a full sample project in [examples/ashes-under-the-tide/README.md](examples/ashes-under-the-tide/README.md), a complete English-language cyberpunk workflow fixture in [examples/the-hours-left-over/README.md](examples/the-hours-left-over/README.md), a dogfood summary in [examples/dogfood-report.md](examples/dogfood-report.md), and a concise end-to-end workflow example in [examples/workflow.md](examples/workflow.md).
 
 ## License
 

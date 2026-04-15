@@ -1,0 +1,16 @@
+locations:
+  - id: madrid_core
+    type: "city"
+    description: "Near-future Madrid reorganized around continuous wakefulness."
+  - id: nexora_hq
+    type: "building"
+    description: "Nexora headquarters where Martin works in adverse-effect oversight."
+  - id: plaza_cafeteria
+    type: "public_space"
+    description: "Large subterranean cafeteria where Martin meets Ines and suffers a second intrusion."
+  - id: distribution_hub
+    type: "infrastructure"
+    description: "Nexora update and synchronization site used to deploy the restoration protocol."
+  - id: martin_apartment
+    type: "residence"
+    description: "Martin's functional apartment, designed for a life with almost no rest."
