@@ -4,9 +4,11 @@ Repository of narrative-writing skills for agentic fiction workflows.
 
 These skills are designed to let a coding-oriented console agent work as a story assistant with persistent files, explicit editorial artifacts, and a repeatable manuscript workflow.
 
+Author: Rafael García Moreno
+
 ## Installation
 
-Use [scripts/install-skills.sh](/home/rgarcia/Projects/narrative-skills/scripts/install-skills.sh) to install all skills for Codex, Claude Code, or OpenCode.
+Use [scripts/install-skills.sh](scripts/install-skills.sh) to install all skills for Codex, Claude Code, or OpenCode.
 
 If you run the script without arguments, it prints the help instead of installing anything.
 
@@ -120,4 +122,8 @@ flowchart TD
 
 ## Example fixture
 
-The repository includes a full sample project in [examples/ashes-under-the-tide/README.md](/home/rgarcia/Projects/narrative-skills/examples/ashes-under-the-tide/README.md) and a dogfood summary in [examples/dogfood-report.md](/home/rgarcia/Projects/narrative-skills/examples/dogfood-report.md).
+The repository includes a full sample project in [examples/ashes-under-the-tide/README.md](examples/ashes-under-the-tide/README.md), a dogfood summary in [examples/dogfood-report.md](examples/dogfood-report.md), and a concise end-to-end workflow example in [examples/workflow.md](examples/workflow.md).
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
