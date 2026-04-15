@@ -1,6 +1,13 @@
 html {
   color-scheme: light dark;
   font-size: 100%;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+html,
+body {
+  min-height: 100%;
 }
 
 :root {
@@ -58,6 +65,7 @@ hr {
 
 blockquote {
   margin: 1rem 0 1rem 1.2rem;
+  border-left: 2px solid var(--rule);
   color: var(--muted);
 }
 
