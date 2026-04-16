@@ -4,7 +4,7 @@ Repository of narrative-writing skills for agentic fiction workflows.
 
 These skills are designed to let a coding-oriented console agent work as a story assistant with persistent files, explicit editorial artifacts, and a repeatable manuscript workflow.
 
-Author: Rafael García Moreno
+Author: Rafael García Moreno <bladecoder@gmail.com>
 
 ## Installation
 
@@ -122,7 +122,7 @@ flowchart TD
 
 ## Example fixture
 
-The repository includes a full sample project in [examples/ashes-under-the-tide/README.md](examples/ashes-under-the-tide/README.md), a complete English-language cyberpunk workflow fixture in [examples/the-hours-left-over/README.md](examples/the-hours-left-over/README.md), a dogfood summary in [examples/dogfood-report.md](examples/dogfood-report.md), and a concise end-to-end workflow example in [examples/workflow.md](examples/workflow.md).
+The repository includes a full sample project in [examples/the-hours-left-over/README.md](examples/the-hours-left-over/README.md) and a concise end-to-end workflow example in [examples/workflow.md](examples/workflow.md).
 
 ## License
 
