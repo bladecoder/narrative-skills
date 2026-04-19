@@ -17,10 +17,12 @@ TARGETS=()
 CODEX_DIR="${CODEX_HOME:-$HOME/.codex}/skills"
 CLAUDE_DIR="${CLAUDE_CODE_HOME:-${CLAUDE_HOME:-$HOME/.claude}}/skills"
 OPENCODE_DIR="${OPEN_CODE_HOME:-${OPENCODE_HOME:-$HOME/.config/opencode}}/skills"
+AGENTS_DIR="${AGENTS_HOME:-${CALLER_REPO_ROOT}/.agents}/skills"
 REPO_INSTALL_ROOT="${CALLER_REPO_ROOT}"
 CUSTOM_CODEX_DIR=0
 CUSTOM_CLAUDE_DIR=0
 CUSTOM_OPENCODE_DIR=0
+CUSTOM_AGENTS_DIR=0
 ARG_COUNT=$#
 
 usage() {
@@ -32,7 +34,7 @@ Install all repository skills into Codex, Claude Code, and/or OpenCode.
 
 Options:
   --target NAME         Install to one target. Repeatable.
-                        Supported: codex, claude, claude-code, opencode, open-code, all
+                        Supported: codex, claude, claude-code, opencode, open-code, agents, all
   --mode MODE           Install mode: symlink or copy. Default: symlink
   --force               Replace existing installed skills
   --dry-run             Print actions without modifying the filesystem
@@ -41,12 +43,14 @@ Options:
   --codex-dir PATH      Override Codex skills directory
   --claude-dir PATH     Override Claude Code skills directory
   --opencode-dir PATH   Override OpenCode skills directory
+  --agents-dir PATH     Override .agents skills directory
   --help                Show this help
 
 Default target directories:
   Codex:       ${CODEX_HOME:-$HOME/.codex}/skills
   Claude Code: ${CLAUDE_CODE_HOME:-${CLAUDE_HOME:-$HOME/.claude}}/skills
   OpenCode:    ${OPEN_CODE_HOME:-${OPENCODE_HOME:-$HOME/.config/opencode}}/skills
+  Agents:      <repo-root>/.agents/skills (default when no --target is given)
 
 Examples:
   scripts/install-skills.sh --target codex --mode symlink
@@ -54,6 +58,7 @@ Examples:
   scripts/install-skills.sh --target all --mode symlink --force
   scripts/install-skills.sh --target all --mode symlink --in-repo
   scripts/install-skills.sh --target opencode --opencode-dir "$HOME/custom/opencode/skills"
+  scripts/install-skills.sh  # installs to .agents/skills in current repo
 EOF
 }
 
@@ -85,6 +90,9 @@ normalize_target() {
     opencode|open-code)
       printf 'opencode\n'
       ;;
+    agents)
+      printf 'agents\n'
+      ;;
     all)
       printf 'all\n'
       ;;
@@ -115,6 +123,9 @@ resolve_target_dir() {
       ;;
     opencode)
       printf '%s\n' "${OPENCODE_DIR}"
+      ;;
+    agents)
+      printf '%s\n' "${AGENTS_DIR}"
       ;;
     *)
       return 1
@@ -195,6 +206,7 @@ while [[ $# -gt 0 ]]; do
         append_target "codex"
         append_target "claude"
         append_target "opencode"
+        append_target "agents"
       else
         append_target "${normalized_target}"
       fi
@@ -247,6 +259,12 @@ while [[ $# -gt 0 ]]; do
       CUSTOM_OPENCODE_DIR=1
       shift 2
       ;;
+    --agents-dir)
+      [[ $# -ge 2 ]] || fail "Missing value for --agents-dir"
+      AGENTS_DIR="$2"
+      CUSTOM_AGENTS_DIR=1
+      shift 2
+      ;;
     --help|-h)
       usage
       exit 0
@@ -257,9 +275,8 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-if [[ "${ARG_COUNT}" -eq 0 ]]; then
-  usage
-  exit 0
+if [[ "${#TARGETS[@]}" -eq 0 ]]; then
+  append_target "agents"
 fi
 
 if [[ ! -d "${SOURCE_SKILLS_DIR}" ]]; then
@@ -275,6 +292,9 @@ if [[ "${IN_REPO}" -eq 1 ]]; then
   fi
   if [[ "${CUSTOM_OPENCODE_DIR}" -eq 0 ]]; then
     OPENCODE_DIR="${REPO_INSTALL_ROOT}/.opencode/skills"
+  fi
+  if [[ "${CUSTOM_AGENTS_DIR}" -eq 0 ]]; then
+    AGENTS_DIR="${REPO_INSTALL_ROOT}/.agents/skills"
   fi
 fi
 
