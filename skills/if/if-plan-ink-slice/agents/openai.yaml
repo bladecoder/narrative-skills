@@ -1,0 +1,4 @@
+interface:
+  display_name: "IF Plan Ink Slice"
+  short_description: "Plan one bounded Ink implementation slice."
+  default_prompt: "Use $if-plan-ink-slice to prepare one location, dialogue, obstacle, or system for Ink implementation."

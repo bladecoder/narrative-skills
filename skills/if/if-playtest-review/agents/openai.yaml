@@ -1,0 +1,4 @@
+interface:
+  display_name: "IF Playtest Review"
+  short_description: "Review Ink playability, routes, locks, loops, and state coverage."
+  default_prompt: "Use $if-playtest-review to check this Ink IF project or slice for playability problems."

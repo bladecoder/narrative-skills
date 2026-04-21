@@ -1,0 +1,4 @@
+interface:
+  display_name: "IF Init Project"
+  short_description: "Initialize the canonical Ink interactive fiction project structure."
+  default_prompt: "Use $if-init-project to set up this workspace as an Ink interactive fiction project."

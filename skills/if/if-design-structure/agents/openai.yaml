@@ -1,0 +1,4 @@
+interface:
+  display_name: "IF Design Structure"
+  short_description: "Define the playable structure and core loop for an Ink IF story."
+  default_prompt: "Use $if-design-structure to define the core loop, phases, and critical path for this Ink IF project."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "IF Design Dialogue"
+  short_description: "Design free-order character conversations and topic state."
+  default_prompt: "Use $if-design-dialogue to build the character dialogue matrix for this Ink IF project."

@@ -13,6 +13,7 @@ FORCE=0
 DRY_RUN=0
 IN_REPO=0
 TARGETS=()
+SKILL_DIRS=()
 
 CODEX_DIR="${CODEX_HOME:-$HOME/.codex}/skills"
 CLAUDE_DIR="${CLAUDE_CODE_HOME:-${CLAUDE_HOME:-$HOME/.claude}}/skills"
@@ -166,6 +167,26 @@ install_skill() {
   esac
 }
 
+discover_skills() {
+  local source_root="$1"
+  local skill_file skill_dir skill_name existing_name
+  local seen_names=()
+
+  while IFS= read -r -d '' skill_file; do
+    skill_dir="$(dirname -- "${skill_file}")"
+    skill_name="$(basename -- "${skill_dir}")"
+
+    for existing_name in "${seen_names[@]:-}"; do
+      if [[ "${existing_name}" == "${skill_name}" ]]; then
+        fail "Duplicate skill name discovered: ${skill_name}"
+      fi
+    done
+
+    seen_names+=("${skill_name}")
+    SKILL_DIRS+=("${skill_dir}")
+  done < <(find "${source_root}" -type f -name SKILL.md -print0 | sort -z)
+}
+
 install_target() {
   local target="$1"
   local destination_root="$2"
@@ -177,9 +198,7 @@ install_target() {
   log "Installing skills for ${target} -> ${destination_root}"
   run mkdir -p "${destination_root}"
 
-  for skill_dir in "${SOURCE_SKILLS_DIR}"/*; do
-    [[ -d "${skill_dir}" ]] || continue
-
+  for skill_dir in "${SKILL_DIRS[@]}"; do
     skill_name="$(basename -- "${skill_dir}")"
     destination="${destination_root}/${skill_name}"
 
@@ -282,6 +301,8 @@ fi
 if [[ ! -d "${SOURCE_SKILLS_DIR}" ]]; then
   fail "Skills directory not found: ${SOURCE_SKILLS_DIR}"
 fi
+
+discover_skills "${SOURCE_SKILLS_DIR}"
 
 if [[ "${IN_REPO}" -eq 1 ]]; then
   if [[ "${CUSTOM_CODEX_DIR}" -eq 0 ]]; then

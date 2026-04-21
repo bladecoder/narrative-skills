@@ -1,0 +1,4 @@
+interface:
+  display_name: "IF Design Map"
+  short_description: "Design locations, connections, gates, and spatial unlocks."
+  default_prompt: "Use $if-design-map to build the explorable map and location unlock design."

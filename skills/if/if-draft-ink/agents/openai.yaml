@@ -1,0 +1,4 @@
+interface:
+  display_name: "IF Draft Ink"
+  short_description: "Write or revise Ink source from a prepared slice plan."
+  default_prompt: "Use $if-draft-ink to implement the prepared Ink slice."

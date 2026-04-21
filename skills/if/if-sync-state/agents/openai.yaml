@@ -1,0 +1,4 @@
+interface:
+  display_name: "IF Sync State"
+  short_description: "Synchronize accepted Ink changes back into design and continuity."
+  default_prompt: "Use $if-sync-state to update design, progression, continuity, and workflow metadata after accepted Ink changes."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "IF Design Progression"
+  short_description: "Model obstacles, requirements, grants, and unlock conditions."
+  default_prompt: "Use $if-design-progression to define the obstacle and unlock model for this Ink IF project."

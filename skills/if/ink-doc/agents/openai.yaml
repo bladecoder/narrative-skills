@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ink Doc"
+  short_description: "Use the Ink language reference for interactive fiction scripts."
+  default_prompt: "Use $ink-doc to create or revise Ink scripts with the correct language syntax."

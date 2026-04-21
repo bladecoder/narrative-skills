@@ -1,0 +1,4 @@
+interface:
+  display_name: "IF Load Context"
+  short_description: "Read and validate an Ink IF project before continuing work."
+  default_prompt: "Use $if-load-context to inspect the Ink IF project and recommend the next skill."

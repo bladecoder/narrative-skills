@@ -79,6 +79,22 @@ You can override paths with `--codex-dir`, `--claude-dir`, `--opencode-dir`, or 
 - `prepare-export`: Builds a clean reader-facing export package under `08_exports/` from accepted manuscript state.
 - `build-distribution`: Converts the export package into distribution formats such as HTML, EPUB, and PDF when the required backend is available.
 
+### Interactive fiction with Ink
+
+Skills under `skills/if/` support exploratory interactive fiction built with Ink. They keep project filenames in English, write human-facing project content in `story.language`, and use `story.yaml` as the shared contract.
+
+- `ink-doc`: Provides Ink language reference guidance for `.ink` files.
+- `if-load-context`: Reads and validates an interactive fiction Ink project before downstream IF work.
+- `if-init-project`: Creates or normalizes the canonical Ink IF project structure.
+- `if-design-structure`: Defines the playable promise, core loop, phases, and two-axis exploration model.
+- `if-design-map`: Designs the spatial map, locations, connections, gates, and location unlocks.
+- `if-design-dialogue`: Designs free-order character conversations, topic availability, and dialogue state.
+- `if-design-progression`: Models obstacles, knowledge, inventory, protagonist skills, and unlock conditions.
+- `if-plan-ink-slice`: Plans one implementable Ink slice before drafting code.
+- `if-draft-ink`: Writes or revises Ink files from the project design and slice plan.
+- `if-playtest-review`: Reviews playability, routes, dead ends, loops, locks, and state coverage.
+- `if-sync-state`: Synchronizes accepted Ink changes back into design, progression, and continuity records.
+
 ## End-to-end workflow
 
 ```mermaid
