@@ -1,0 +1,27 @@
+project:
+  title: "The Last Checkout"
+  format: "interactive_fiction_ink"
+  status: "playable_complete_draft"
+story:
+  genre: "crime"
+  subgenre: "noir police mystery"
+  language: "English"
+  audience: "adult"
+  estimated_length: "small one-case interactive fiction"
+  premise_status: "confirmed"
+narrative:
+  tone: "noir, restrained, investigative"
+  voice: "first person retrospective"
+  pov: "first person"
+  tense: "past"
+interactive:
+  engine: "ink"
+  entrypoint: "05_ink/main.ink"
+  navigation_model: "free_2d_map"
+  conversation_model: "free_order_dialogues"
+workflow:
+  canonical_root: "."
+  initialized_at: "2026-04-22"
+  last_completed_skill: "if-sync-state"
+  last_completed_slice: "full_case_loop"
+  next_skill: "if-playtest-review"

@@ -1,0 +1,17 @@
+entities:
+  antonio_luna:
+    type: "person"
+    role: "detective protagonist"
+  clara_voss:
+    type: "person"
+    role: "witness and murderer"
+  dr_maeve_ibarra:
+    type: "person"
+    role: "medical examiner"
+  officer_ben_pike:
+    type: "person"
+    role: "uniformed officer"
+  javier_morrow:
+    type: "person"
+    role: "victim and blackmailer"
+

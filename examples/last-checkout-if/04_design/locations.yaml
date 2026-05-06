@@ -1,0 +1,26 @@
+locations:
+  - id: living_room
+    display_name: "Living room and kitchenette"
+    narrative_function: "Starting hub, Clara's alibi, scarf clue."
+    initial_availability: true
+    connections: ["bedroom", "bathroom"]
+    characters: ["clara_voss", "officer_pike"]
+    discoveries: ["clue_clara_missing_earring", "clue_scarf"]
+    grants: ["evidence_how when combined with Dr. Ibarra's ligature confirmation"]
+  - id: bedroom
+    display_name: "Bedroom"
+    narrative_function: "Motive discovery through blackmail material."
+    initial_availability: true
+    connections: ["living_room"]
+    characters: []
+    discoveries: ["clue_blackmail_envelope", "clue_bank_transfer"]
+    grants: ["evidence_why"]
+  - id: bathroom
+    display_name: "Bathroom"
+    narrative_function: "Body examination and proof Clara entered the room."
+    initial_availability: true
+    connections: ["living_room"]
+    characters: ["dr_maeve_ibarra"]
+    discoveries: ["clue_ligature_mark", "clue_earring_back"]
+    grants: ["evidence_who when combined with Clara's missing earring"]
+

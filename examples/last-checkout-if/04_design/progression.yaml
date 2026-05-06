@@ -1,0 +1,42 @@
+obstacles:
+  - id: prove_who
+    type: "knowledge"
+    description: "Prove Clara was in the bathroom despite her alibi."
+    requires: ["clue_earring_back", "clue_clara_missing_earring"]
+    grants: ["evidence_who"]
+    location_scope: ["bathroom", "living_room"]
+    character_scope: ["clara_voss"]
+    critical_path: true
+    fallback_route: "Both clues remain repeatable until found."
+    status: "implemented"
+  - id: prove_how
+    type: "knowledge"
+    description: "Prove Javier was strangled with Clara's scarf."
+    requires: ["clue_ligature_mark", "clue_scarf", "talked_maeve_scarf"]
+    grants: ["evidence_how"]
+    location_scope: ["bathroom", "living_room"]
+    character_scope: ["dr_maeve_ibarra", "clara_voss"]
+    critical_path: true
+    fallback_route: "Scarf and medical confirmation remain available in any order."
+    status: "implemented"
+  - id: prove_why
+    type: "knowledge"
+    description: "Prove Javier had been blackmailing Clara."
+    requires: ["clue_blackmail_envelope", "clue_bank_transfer"]
+    grants: ["evidence_why"]
+    location_scope: ["bedroom"]
+    character_scope: ["clara_voss"]
+    critical_path: true
+    fallback_route: "Bedroom documents remain available until collected."
+    status: "implemented"
+  - id: final_confession
+    type: "world_state"
+    description: "Force Clara to confess."
+    requires: ["evidence_who", "evidence_how", "evidence_why"]
+    grants: ["case_closed"]
+    location_scope: ["living_room"]
+    character_scope: ["clara_voss"]
+    critical_path: true
+    fallback_route: "If any evidence category is missing, Clara lies and investigation continues."
+    status: "implemented"
+

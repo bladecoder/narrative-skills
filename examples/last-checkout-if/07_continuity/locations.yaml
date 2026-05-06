@@ -1,0 +1,8 @@
+locations:
+  tourist_apartment:
+    type: "crime scene"
+    rooms:
+      - "living room and kitchenette"
+      - "bedroom"
+      - "bathroom"
+

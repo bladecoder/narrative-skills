@@ -1,0 +1,14 @@
+facts:
+  - id: victim_identity
+    text: "Javier Morrow was found dead in the bathroom of a tourist apartment."
+    status: "stable"
+  - id: murderer_identity
+    text: "Clara Voss killed Javier Morrow."
+    status: "stable"
+  - id: murder_method
+    text: "Clara strangled Javier with her silk scarf and staged the scene as a bathroom fall."
+    status: "stable"
+  - id: motive
+    text: "Javier had been blackmailing Clara over stolen gallery money."
+    status: "stable"
+
