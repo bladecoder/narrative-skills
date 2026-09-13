@@ -20,4 +20,8 @@ narrative:
 workflow:
   canonical_root: "."
   initialized_at: "2026-04-15"
-  next_skill: "none"
+  stage: "complete"
+  active_target: null
+  last_completed_action: "export_manuscript"
+  next_action: "complete"
+  approval_required: false

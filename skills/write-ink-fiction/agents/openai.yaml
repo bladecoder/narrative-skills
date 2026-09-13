@@ -1,0 +1,5 @@
+interface:
+  display_name: "Write Ink Fiction"
+  short_description: "Design, write, and playtest Ink fiction."
+  default_prompt: "Use $write-ink-fiction to inspect this Ink project and continue it to the next creative milestone."
+

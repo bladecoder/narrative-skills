@@ -12,8 +12,18 @@ MODE="symlink"
 FORCE=0
 DRY_RUN=0
 IN_REPO=0
+PRUNE_LEGACY=0
 TARGETS=()
 SKILL_DIRS=()
+LEGACY_SKILL_NAMES=(
+  beta-reader-pass build-distribution chapter-review continuity-check
+  create-character-bible define-style-bible draft-chapter generate-high-level-outline
+  if-design-dialogue if-design-map if-design-progression if-design-structure
+  if-draft-ink if-init-project if-load-context if-plan-ink-slice
+  if-playtest-review if-sync-state ink-doc init-story-project load-story-context
+  manuscript-review plan-chapter prepare-export rewrite-chapter sync-story-bible
+  update-character-state update-timeline
+)
 
 CODEX_DIR="${CODEX_HOME:-$HOME/.codex}/skills"
 CLAUDE_DIR="${CLAUDE_CODE_HOME:-${CLAUDE_HOME:-$HOME/.claude}}/skills"
@@ -38,6 +48,7 @@ Options:
                         Supported: codex, claude, claude-code, opencode, open-code, agents, all
   --mode MODE           Install mode: symlink or copy. Default: symlink
   --force               Replace existing installed skills
+  --prune-legacy        Remove retired narrative skills from selected targets
   --dry-run             Print actions without modifying the filesystem
   --in-repo             Install into directories inside the current repository
   --repo-dir PATH       Base directory to use with --in-repo. Default: caller repository root
@@ -57,6 +68,7 @@ Examples:
   scripts/install-skills.sh --target codex --mode symlink
   scripts/install-skills.sh --target claude-code --target opencode --mode copy
   scripts/install-skills.sh --target all --mode symlink --force
+  scripts/install-skills.sh --target codex --force --prune-legacy
   scripts/install-skills.sh --target all --mode symlink --in-repo
   scripts/install-skills.sh --target opencode --opencode-dir "$HOME/custom/opencode/skills"
   scripts/install-skills.sh  # installs to .agents/skills in current repo
@@ -216,6 +228,25 @@ install_target() {
   log "Summary for ${target}: installed=${installed_count} skipped=${skipped_count} mode=${MODE}"
 }
 
+prune_legacy_skills() {
+  local destination_root="$1"
+  local skill_name destination
+  local pruned_count=0
+
+  [[ -n "${destination_root}" && "${destination_root}" != "/" ]] || fail "Refusing to prune unsafe destination: ${destination_root}"
+
+  for skill_name in "${LEGACY_SKILL_NAMES[@]}"; do
+    destination="${destination_root}/${skill_name}"
+    if [[ -e "${destination}" || -L "${destination}" ]]; then
+      run rm -rf -- "${destination}"
+      log "  prune ${skill_name}"
+      pruned_count=$((pruned_count + 1))
+    fi
+  done
+
+  log "Legacy cleanup: removed=${pruned_count}"
+}
+
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --target)
@@ -245,6 +276,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     --force)
       FORCE=1
+      shift
+      ;;
+    --prune-legacy)
+      PRUNE_LEGACY=1
       shift
       ;;
     --dry-run)
@@ -335,5 +370,9 @@ if [[ "${IN_REPO}" -eq 1 ]]; then
 fi
 
 for target in "${TARGETS[@]}"; do
-  install_target "${target}" "$(resolve_target_dir "${target}")"
+  target_dir="$(resolve_target_dir "${target}")"
+  if [[ "${PRUNE_LEGACY}" -eq 1 ]]; then
+    prune_legacy_skills "${target_dir}"
+  fi
+  install_target "${target}" "${target_dir}"
 done

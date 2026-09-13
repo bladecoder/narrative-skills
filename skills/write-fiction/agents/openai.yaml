@@ -1,0 +1,5 @@
+interface:
+  display_name: "Write Fiction"
+  short_description: "Manage fiction from premise to publication."
+  default_prompt: "Use $write-fiction to inspect this story project and continue it to the next creative milestone."
+

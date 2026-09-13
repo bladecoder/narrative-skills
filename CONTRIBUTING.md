@@ -6,8 +6,8 @@ The goal of this repository is to keep the skills practical, file-driven, and pr
 
 ## What to contribute
 
-- New skills that fit the repository's narrative workflow.
-- Improvements to existing `SKILL.md` instructions.
+- Improvements to the two public workflow skills or their focused references.
+- New references that add a genuinely distinct narrative mode or implementation need.
 - Fixes to installation or compatibility issues in [scripts/install-skills.sh](scripts/install-skills.sh).
 - Better examples and documentation.
 
@@ -19,19 +19,21 @@ The goal of this repository is to keep the skills practical, file-driven, and pr
 - Update documentation when behavior, structure, or installation changes.
 - Do not add generated local-install directories such as `.codex/`, `.claude/`, or `.opencode/`.
 
-## Adding or updating a skill
+## Updating a skill
 
-Each skill should live in its own directory under `skills/` and include:
+The public surface intentionally contains only `write-fiction` and `write-ink-fiction`. Each directory includes:
 
 - `SKILL.md`
 - `agents/openai.yaml` when the skill needs agent configuration
 
-A good skill should:
+A good change should:
 
-- have a narrow, explicit responsibility;
-- describe the files it reads and writes;
-- define stable workflow expectations;
+- keep routing and approval boundaries in `SKILL.md`;
+- move mode-specific detail into a discoverable reference;
+- preserve the shared project and workflow contracts;
 - avoid ambiguous instructions that depend on hidden chat context.
+
+Do not add another public skill for a step that can be represented as a mode or milestone of an existing workflow. A third entry point requires a distinct user audience and end-to-end purpose.
 
 ## Testing changes
 
@@ -42,6 +44,7 @@ Examples:
 ```bash
 scripts/install-skills.sh --target codex --mode symlink --dry-run
 scripts/install-skills.sh --target all --mode symlink --in-repo --dry-run
+scripts/install-skills.sh --target codex --prune-legacy --dry-run
 ```
 
 If you change installation behavior, also test a real local install in a disposable directory or with `--in-repo`.
