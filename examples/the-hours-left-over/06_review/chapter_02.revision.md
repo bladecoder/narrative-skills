@@ -23,6 +23,6 @@ This revision strengthened the physical break in the cafeteria intrusion, sharpe
 - Chapter 3 must make the restoration protocol visibly costly and not merely cathartic.
 - Martin's exhaustion should continue to accumulate credibly.
 
-## Recommended next skill
+## Recommended next action
 
-`continuity-check`
+Accept and synchronize chapter 2 with `$write-fiction`.
